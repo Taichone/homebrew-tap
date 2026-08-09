@@ -7,7 +7,7 @@ cask "simplecut" do
   desc "Lightweight video editor for macOS"
   homepage "https://github.com/Taichone/homebrew-tap"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "SimpleCut.app"
 
