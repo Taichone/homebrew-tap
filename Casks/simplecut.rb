@@ -14,11 +14,4 @@ cask "simplecut" do
   zap trash: [
     "~/Library/Containers/com.taichone.SimpleCut",
   ]
-
-  caveats <<~EOS
-    SimpleCut is not notarized. If macOS blocks the app on first launch,
-    reinstall with:
-      brew reinstall --cask --no-quarantine taichone/tap/simplecut
-    or allow the app under System Settings > Privacy & Security.
-  EOS
 end
