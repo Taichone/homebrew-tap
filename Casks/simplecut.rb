@@ -1,6 +1,6 @@
 cask "simplecut" do
-  version "0.1.1"
-  sha256 "c35afe3881844a31eaff9104874eb1446fd5b65b1165e4ddc287f5b3f8ee1137"
+  version "0.1.2"
+  sha256 "7c9d5350d9f4337bdb705764621cabc4b12273e4bdf6b3165c842e4ed637f25c"
 
   url "https://github.com/Taichone/homebrew-tap/releases/download/simplecut-v#{version}/SimpleCut-#{version}.zip"
   name "SimpleCut"
