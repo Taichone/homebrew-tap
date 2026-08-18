@@ -1,6 +1,6 @@
 cask "simplecut" do
-  version "0.1.3"
-  sha256 "37a223a3d475098e7f768bb06429738b71f11066d0fa53831c64e0b827a0a964"
+  version "0.1.4"
+  sha256 "4649bd132148f90047d4fcf1d61faea8713e0deae2fad4e92ae79bbe0c04a4ba"
 
   url "https://github.com/Taichone/homebrew-tap/releases/download/simplecut-v#{version}/SimpleCut-#{version}.zip"
   name "SimpleCut"
@@ -10,6 +10,7 @@ cask "simplecut" do
   depends_on macos: :tahoe
 
   app "SimpleCut.app"
+  binary "#{appdir}/SimpleCut.app/Contents/Resources/simplecut"
 
   zap trash: [
     "~/Library/Containers/com.taichone.SimpleCut",
