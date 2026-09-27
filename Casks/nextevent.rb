@@ -1,6 +1,6 @@
 cask "nextevent" do
-  version "0.1"
-  sha256 "0d1bff39ab599fc9c937937ad3c9578cc7b559d4240df94a55ac177910bc4fcf"
+  version "0.1.1"
+  sha256 "4fc8c39d4f20185be13cc36e34ea2b494feb0beadb3a644aff43802d06558ec5"
 
   url "https://github.com/Taichone/homebrew-tap/releases/download/nextevent-v#{version}/Nextevent-#{version}.zip"
   name "Nextevent"
@@ -9,7 +9,7 @@ cask "nextevent" do
 
   depends_on macos: :tahoe
 
-  app "NextEventMac.app"
+  app "Nextevent.app"
 
   zap trash: "~/Library/Containers/dev.tamiki.nextevent.mac"
 end
