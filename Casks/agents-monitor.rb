@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "agents-monitor" do
-  version "1.0.5"
-  sha256 "08b274ec78f38564f66f1d8b62f51e0d066ab533d0bc95b1df194665df245066"
+  version "1.0.6"
+  sha256 "637fa87966159a2432633e37e8d2d8a6c01dbd368f2284195238a69e7ed44140"
 
   url "https://github.com/Taichone/homebrew-tap/releases/download/agents-monitor-v#{version}/AgentsMonitor-#{version}.zip"
   name "Agents Monitor"
