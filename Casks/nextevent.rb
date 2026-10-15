@@ -1,6 +1,6 @@
 cask "nextevent" do
-  version "0.1.13"
-  sha256 "6ec9b99add4edd2f9d2bab65816c624a7144310fe4a56070bc4aad206f0eb6c5"
+  version "0.1.14"
+  sha256 "a6d2fe5194f30f260db64fca8c9df09383efbf2535f4509d8bb3877274d4023e"
 
   url "https://github.com/Taichone/homebrew-tap/releases/download/nextevent-v#{version}/Nextevent-#{version}.zip"
   name "Nextevent"
