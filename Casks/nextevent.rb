@@ -11,5 +11,7 @@ cask "nextevent" do
 
   app "Nextevent.app"
 
+  uninstall quit: "dev.tamiki.nextevent.mac"
+
   zap trash: "~/Library/Containers/dev.tamiki.nextevent.mac"
 end
